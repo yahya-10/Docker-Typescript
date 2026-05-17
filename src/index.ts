@@ -1,7 +1,7 @@
 import express from 'express'
 import dotenv from 'dotenv'
 
-import { pool } from './database.ts'
+import { pool } from './config/database.ts'
 
 const app = express()
 
